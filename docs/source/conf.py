@@ -31,3 +31,5 @@ language = 'italiano'
 
 html_theme = 'alabaster'
 html_static_path = []
+
+master_doc = 'index'
