@@ -4,4 +4,4 @@ splrand
 .. toctree::
    :maxdepth: 4
 
-   splrand.rst
+   splrand
