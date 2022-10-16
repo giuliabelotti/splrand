@@ -20,16 +20,7 @@ sys.path.insert(0, os.path.abspath('./../..'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 
-extensions = [
-    'sphinx.ext.napoleon',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.mathjax',
-    'sphinx.ext.ifconfig',
-    'sphinx.ext.viewcode',
-]
+extensions = ['sphinx.ext.autodoc']
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -45,4 +36,4 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
-autodoc_mock_imports = ['numpy', 'scipy', 'matplotlib']
+
