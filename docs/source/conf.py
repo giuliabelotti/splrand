@@ -8,6 +8,7 @@
 
 import os
 import sys
+autodoc_mock_imports = ['_tkinter']
 
 project = 'Spline'
 copyright = '2022, Giulia Belotti'
