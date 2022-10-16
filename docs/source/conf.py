@@ -14,7 +14,7 @@ copyright = '2022, Giulia Belotti'
 author = 'Giulia Belotti'
 release = '0.0.1'
 
-sys.path.insert(0, os.path.abspath('../../'))
+sys.path.insert(0, os.path.abspath('./../..'))
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
