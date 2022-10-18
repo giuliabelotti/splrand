@@ -20,10 +20,9 @@ sys.path.insert(0, os.path.abspath('./../..'))
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc', 'autoapi.extension'
+extensions = ['sphinx.ext.autodoc',
 ]
 
-autoapi_dirs = ['../../splrand']
 
 templates_path = ['_templates']
 exclude_patterns = []
